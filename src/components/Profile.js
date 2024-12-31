@@ -12,11 +12,11 @@ function Profile() {
       description: "25k+ tweets all time",
     },
     {
-      icon: <box-icon name="stats"></box-icon>,
-      description: "80+ blog posts all time",
+      icon: <box-icon name="trending-up" color="#000"></box-icon>,
+      description: "37+ blog posts all time",
     },
     {
-      icon: <box-icon name="hash" color="#ffffff"></box-icon>,
+      icon: <box-icon name="hash" color="#000"></box-icon>,
       description: "500k+ blog views all time",
     },
   ];

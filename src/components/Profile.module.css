@@ -1,9 +1,17 @@
-.profileImage {
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-}
+@media screen and (min-width: 320px) {
+  .profileContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.profileCard {
-  padding-top: 20px;
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+
+  .profileCard {
+    padding-top: 20px;
+  }
 }

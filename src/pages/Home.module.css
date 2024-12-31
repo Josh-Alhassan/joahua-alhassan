@@ -1,0 +1,10 @@
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 320px) {
+  .homePage {
+    background-color: orange;
+  }
+
+  .article {
+    text-align: justify;
+  }
+}

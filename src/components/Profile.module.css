@@ -1,0 +1,9 @@
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.profileCard {
+  padding-top: 20px;
+}

@@ -8,4 +8,19 @@
     text-align: justify;
     padding: 20px 0;
   }
+
+  .socialBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .homePage {
+    background-color: orange;
+  }
 }

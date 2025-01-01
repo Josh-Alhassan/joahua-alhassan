@@ -9,3 +9,9 @@
     margin-bottom: 40px;
   }
 }
+
+@media screen and (min-width: 617px) {
+  .primaryHeader {
+    font-size: 38px;
+  }
+}

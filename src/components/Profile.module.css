@@ -15,3 +15,19 @@
     padding-top: 20px;
   }
 }
+
+@media screen and (min-width: 617px) {
+  .profileContainer {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .profileImage {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profileCard {
+    padding-top: 40px;
+  }
+}

@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import style from "./Accordion.module.css";
+
 const Accordion = ({ title, description, link }) => {
   return (
     <a
@@ -9,7 +11,9 @@ const Accordion = ({ title, description, link }) => {
       rel="noopener noreferrer"
       style={styles.container}
     >
-      <h3 style={styles.title}>{title}</h3>
+      <h3 style={styles.title} className={style.accordionTitle}>
+        {title}
+      </h3>
       <div style={styles.content}>
         <p style={styles.description}>{description}</p>
         <div>

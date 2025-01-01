@@ -1,22 +1,21 @@
 /*========== Responsive typography ==========*/
-@media screen and (min-width: 320px) {
-  .homePage {
-    /* background-color: orange; */
-  }
 
-  article {
-    text-align: justify;
-    padding: 20px 0;
-  }
+.homePage {
+  /* background-color: orange; */
+}
 
-  .socialBlock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+article {
+  text-align: justify;
+  padding: 20px 0;
+}
 
-    margin-top: 40px;
-  }
+.socialBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 40px;
 }
 
 @media screen and (min-width: 617px) {

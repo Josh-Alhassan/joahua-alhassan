@@ -1,17 +1,14 @@
-/* .primaryHeader {
-  margin-bottom: 40px;
-} */
-
 /*========== 380px Mobile Size  ==========*/
-@media screen and (min-width: 320px) {
-  .primaryHeader {
-    font-size: 28px;
-    margin-bottom: 40px;
-  }
+
+.primaryHeader {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 617px) {
   .primaryHeader {
     font-size: 38px;
+    font-weight: 600;
   }
 }

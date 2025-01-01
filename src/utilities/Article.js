@@ -1,8 +1,13 @@
 import React from "react";
 
+import style from "./Article.module.css";
+
 function Article({ children }) {
   return (
-    <article style={{ textAlign: "justify", padding: "20px 0" }}>
+    <article
+      className={style.article}
+      style={{ textAlign: "left", padding: "20px 0" }}
+    >
       {children}
     </article>
   );

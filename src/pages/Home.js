@@ -39,7 +39,7 @@ const socialLinks = [
 const Home = () => {
   return (
     <div className={style.homePage}>
-      <PrimaryHeader fontWeight="400">Hey, I'm Joshua 👋</PrimaryHeader>
+      <PrimaryHeader>Hey, I'm Joshua 👋</PrimaryHeader>
       <Article>
         I am a frontend Developer, Developer Advocate, and Community Manager
         with 5+ years of experience building developer communities.

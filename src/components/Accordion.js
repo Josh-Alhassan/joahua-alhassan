@@ -15,7 +15,7 @@ const Accordion = ({ title, description, link }) => {
         {title}
       </h3>
       <div style={styles.content}>
-        <p style={styles.description}>{description}</p>
+        <p className={style.description}>{description}</p>
         <div>
           <box-icon
             type="solid"
@@ -50,17 +50,13 @@ const styles = {
   title: {
     fontWeight: "500",
     marginBottom: "22px",
-    fontSize: "18px",
   },
   content: {
     display: "flex",
     gap: "10px",
     alignItems: "center",
   },
-  description: {
-    fontSize: "18px",
-    flexGrow: 1,
-  },
+
   icon: {
     fontSize: "24px",
     color: "#555",

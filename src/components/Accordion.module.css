@@ -1,5 +1,19 @@
-@media screen and (max-width: 617px) {
-  .accordionTitle {
+.accordionTitle {
+  font-size: 28px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.description {
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 617px) {
+  .description {
     font-size: 22px;
+  }
+  .accordionTitle {
+    font-size: 28px;
   }
 }

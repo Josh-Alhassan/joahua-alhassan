@@ -6,7 +6,7 @@ function Article({ children }) {
   return (
     <article
       className={style.article}
-      style={{ textAlign: "left", padding: "20px 0" }}
+      style={{ textAlign: "left", padding: "20px 0", lineHeight: "1.5" }}
     >
       {children}
     </article>

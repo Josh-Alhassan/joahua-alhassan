@@ -1,0 +1,10 @@
+.menu {
+  font-size: 22px;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu:hover {
+  border-bottom: 2px solid #000;
+}

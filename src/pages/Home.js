@@ -6,6 +6,7 @@ import Accordion from "../components/Accordion";
 import SocialBlock from "../utilities/SocialBlock";
 
 import style from "./Home.module.css";
+import Navigation from "../components/Navigation";
 
 const articles = [
   {
@@ -39,6 +40,7 @@ const socialLinks = [
 const Home = () => {
   return (
     <div className={style.homePage}>
+      <Navigation />
       <PrimaryHeader>Hey, I'm Joshua 👋</PrimaryHeader>
       <Article>
         I am a frontend Developer, Developer Advocate, and Community Manager

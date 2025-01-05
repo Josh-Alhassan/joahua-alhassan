@@ -7,6 +7,7 @@ import SocialBlock from "../utilities/SocialBlock";
 
 import style from "./Home.module.css";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const articles = [
   {
@@ -70,6 +71,8 @@ const Home = () => {
           </SocialBlock>
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 };

@@ -4,7 +4,7 @@ function SecondaryHeading({ children, style }) {
   return (
     <h2
       style={{
-        marginTop: "30px",
+        marginTop: "40px",
         marginBottom: "10px",
         fontWeight: "400",
         ...style,

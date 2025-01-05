@@ -13,7 +13,13 @@ function Experience({ title, role, duration, achievements, description }) {
         <Article key={index}>{paragraph}</Article>
       ))}
 
-      <ul style={{ fontSize: "22px", lineHeight: "1.5" }}>
+      <ul
+        style={{
+          fontSize: "22px",
+          lineHeight: "1.5",
+          padding: "15px",
+        }}
+      >
         {achievements.map((achievement, index) => (
           <li key={index}>{achievement}</li>
         ))}

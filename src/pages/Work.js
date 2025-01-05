@@ -3,11 +3,12 @@ import PrimaryHeader from "../utilities/PrimaryHeader";
 import Article from "../utilities/Article";
 import Navigation from "../components/Navigation";
 import WorkExperience from "../components/WorkExperience";
+import Footer from "../components/Footer";
 
 function Work() {
   return (
     <div>
-      {/* <Navigation /> */}
+      <Navigation />
       <PrimaryHeader>My Work</PrimaryHeader>
       <Article>
         I am a passionate community manager and program leader with extensive
@@ -32,6 +33,19 @@ function Work() {
         Bootcamp.
       </Article>
       <WorkExperience />
+
+      <Article>
+        These experiences have enriched my skills and provided me with platforms
+        to contribute to the developer community.
+      </Article>
+
+      <Article>
+        Overall, my journey across these roles has been marked by a consistent
+        drive to enhance community engagement, encourage collaboration, and
+        deliver impactful contributions.
+      </Article>
+
+      <Footer />
     </div>
   );
 }

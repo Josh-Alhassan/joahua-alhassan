@@ -1,14 +1,9 @@
 import React from "react";
 import MenuItem from "../utilities/MenuItem";
 
+import { menuItems } from "../data/data";
+
 function Navigation() {
-  const menuItems = [
-    { item: "Home", link: "/" },
-    { item: "Work", link: "/work" },
-    { item: "Video", link: "/video" },
-    { item: "Blog", link: "/blog" },
-    { item: "Contact", link: "/contact" },
-  ];
   return (
     <div
       style={{

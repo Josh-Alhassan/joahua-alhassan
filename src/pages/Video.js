@@ -53,7 +53,7 @@ function Video() {
   return (
     <div>
       <Navigation />
-      <PrimaryHeader>Videos</PrimaryHeader>
+      <PrimaryHeader>My Videos</PrimaryHeader>
       <SubHeading style={{ marginBottom: "40px" }}>
         Here's a list of virtual events, workshops, and webinars I have hosted
       </SubHeading>

@@ -28,7 +28,7 @@ export const socialLinks = [
     type: "logo",
     name: "linkedin",
     color: "#000",
-    url: "https://linkedin.com/in/yourprofile",
+    url: "https://www.linkedin.com/in/alhassan-joshua-abel/",
   },
 ];
 

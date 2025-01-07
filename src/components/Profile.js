@@ -9,7 +9,7 @@ function Profile() {
   const data = [
     {
       icon: <box-icon type="logo" name="twitter"></box-icon>,
-      description: "25k+ tweets all time",
+      description: "6k+ tweets all time",
     },
     {
       icon: <box-icon name="trending-up" color="#000"></box-icon>,
@@ -17,7 +17,7 @@ function Profile() {
     },
     {
       icon: <box-icon name="hash" color="#000"></box-icon>,
-      description: "500k+ blog views all time",
+      description: "1,735k+ blog views all time",
     },
   ];
 

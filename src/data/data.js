@@ -21,10 +21,15 @@ export const articles = [
 ];
 
 export const socialLinks = [
-  { type: "logo", name: "github" },
-  { type: "logo", name: "twitter" },
-  { name: "hash", color: "#000" },
-  { type: "logo", name: "linkedin", color: "#000" },
+  { type: "logo", name: "github", url: "https://github.com/Josh-Alhassan" },
+  { type: "logo", name: "twitter", url: "https://x.com/josh_script" },
+  { name: "hash", color: "#000", url: "https://alhassanjoshua.hashnode.dev/" },
+  {
+    type: "logo",
+    name: "linkedin",
+    color: "#000",
+    url: "https://linkedin.com/in/yourprofile",
+  },
 ];
 
 export const menuItems = [

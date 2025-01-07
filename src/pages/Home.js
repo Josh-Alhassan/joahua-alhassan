@@ -40,7 +40,15 @@ const Home = () => {
       <div className={style.socialBlock}>
         {socialLinks.map((iconProps, index) => (
           <SocialBlock key={index}>
-            <box-icon size="sm" {...iconProps}></box-icon>
+            <a
+              key={index}
+              href={iconProps.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={style.socialLink}
+            >
+              <box-icon size="sm" {...iconProps}></box-icon>
+            </a>
           </SocialBlock>
         ))}
       </div>

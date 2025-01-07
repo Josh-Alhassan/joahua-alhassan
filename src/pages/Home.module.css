@@ -9,6 +9,13 @@ article {
   padding: 20px 0;
 }
 
+.socialLink {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
 .socialBlock {
   display: flex;
   justify-content: center;
@@ -16,6 +23,10 @@ article {
   gap: 15px;
 
   margin-top: 40px;
+}
+
+.socialLink:hover {
+  color: #0073e6;
 }
 
 @media screen and (min-width: 617px) {
